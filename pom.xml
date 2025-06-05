@@ -61,8 +61,9 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
           <configuration>
-            <release>21</release>
-            <generatedSourcesDirectory>${project.basedir}/src/main/generated</generatedSourcesDirectory>
+              <source>21</source>
+              <target>21</target>
+              <generatedSourcesDirectory>${project.basedir}/src/main/generated</generatedSourcesDirectory>
           </configuration>
         </plugin>
       </plugins>
